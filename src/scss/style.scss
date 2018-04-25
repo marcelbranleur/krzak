@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 62.5%;
+    line-height: 1.7;
+    font-size: 62.5%;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 2rem;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Serif', serif;
+    line-height: 3.5rem;
+    margin-left: 2rem;
+
+    span {
+        display: block;
+        position: relative;
+    }
+    span::after {
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 30%;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        
+    }
+}
+
+.info {
+    
+    &__heading {
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 7rem;
+        line-height: 7rem;
+        display: block;
+        margin: 6rem 0 2rem 0;
+    }
+    &__heading::after {
+        position: absolute;
+        content: "";
+        height: 2px;
+        width: 50%;
+        background-color: #000;
+        top: 0;
+        left: 0;
+    }
+    p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+    span:last-child {
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+.col-md-6 {
+    padding: 0 !important;
+}
+
+
+
+.skills {
+    margin-top: 15rem;
+
+    &__box {
+        border: 2px black solid;
+        padding: 3rem;
+        margin-left: 2rem;
+    }
+
+    h2 {
+        
+        font-size: 2.5rem;
+        font-family: 'IBM Plex Serif', serif;
+        line-height: 3.5rem;
+        text-align: center;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            height: 2px;
+            width: 40%;
+            background-color: #000;
+            bottom: 0;
+            left: 120px;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+
+    
+}
